@@ -13,6 +13,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7f912d34349b033ba7ef630c15ce36d3d439bd39.jpg" id="rKy-DM-9Ck">
+                                <rect key="frame" x="0.0" y="0.0" width="412" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="1rM-zJ-4h7">
                                 <rect key="frame" x="35" y="57" width="251" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -171,7 +175,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.75230473109999996" green="1" blue="0.77910113049999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="x" destination="1rM-zJ-4h7" id="8lw-SB-3sO"/>
@@ -179,7 +183,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="185" y="324"/>
+            <point key="canvasLocation" x="262" y="144"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="7f912d34349b033ba7ef630c15ce36d3d439bd39.jpg" width="1280" height="800"/>
+    </resources>
 </document>

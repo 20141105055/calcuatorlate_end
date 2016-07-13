@@ -67,7 +67,7 @@ class ViewController: UIViewController {
         case 4:
             if(Double)(x.text!)==0
             {
-                x.text="大兄弟，零不能这么玩啊"
+                x.text="error"
             }
             else{
                 temp=temp/(Double)(x.text!)!
